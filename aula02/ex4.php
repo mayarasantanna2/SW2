@@ -1,5 +1,5 @@
 <?php
-$opcao = 11;
+$opcao = 1;
 switch ($opcao) {
     case 1:
         echo "Você escolheu a opção 1 ";

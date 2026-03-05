@@ -1,13 +1,13 @@
-<?php 
-$n= -1;
+<?php
+$n = 0;
 
-if ($n >= 1) {
-    echo $n." é positivo"; 
-}
-if ($n <0) {
-    echo $n." é negativo"; 
-}
-else {
-    echo "é 0";
+if ($n > 0) {
+    echo "O número $n é positivo.";
+} else {
+    if ($n < 0) {
+        echo "O número $n é negativo.";
+    } else {
+        echo "O número $n é zero.";
+    }
 }
 ?>
